@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite --port $PORT"
+    "start": "vite --port $PORT",
+    "build": "vite build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
